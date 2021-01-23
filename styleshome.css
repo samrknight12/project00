@@ -65,7 +65,7 @@ body {
 }
  .good, .bad {
 	 font-family: arial, sans-serif;
-	 font-size: 10px;
+	 font-size: 20px;
 	 font-weight: bold;
 	 border: 1px solid black;
 	 padding: 20px;
