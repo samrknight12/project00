@@ -1,0 +1,90 @@
+body {
+	 background-image: url('SunshineCoast.jpg');
+	 background-repeat: no-repeat;
+	 background-size: auto;
+}
+ @media (min-width: 500px) {
+	 h1::before {
+		 content: "The Sunshine Coast";
+	}
+	 h3::before {
+		 content: "This website is for the purpose of ENGO 551 at the University of Calgary Department of Geomatics Engineering";
+	}
+}
+ @media (max-width: 499px) {
+	 h1::before {
+		 content: "Sunshine Coast";
+	}
+	 h3::before {
+		 Content: "ENGO 551 UofC";
+	}
+}
+ .header {
+	 font-family: georgia, sans-serif;
+	 margin-top: 100px;
+	 padding: 20px;
+	 background: #4f9c56;
+	 border-radius: 25px;
+	 opacity: 0.5;
+	 color: white;
+	 font-size: 30px;
+}
+ .header:hover {
+	 opacity: 0.8;
+}
+ #footer {
+	 margin-top: 10px;
+	 font-family: arial, sans-serif;
+	 font-size: 10px;
+	 background: #a7ccac;
+	 opacity: 0.5;
+	 color: white;
+}
+ #footer:hover {
+	 opacity: 0.8;
+}
+ h1, h2, h3, p {
+	 text-align: center;
+}
+ .button1 {
+	 background-color: #4f9c56;
+	 border: none;
+	 color: white;
+	 padding: 15px 32px;
+	 display: block;
+	 margin-top: 50px;
+	 margin-left: 30%;
+	 margin-right: 80%;
+	 text-align: center;
+	 font-size: 30px;
+	 border-radius: 10px;
+	 opacity: 0.5;
+}
+ .button1:hover {
+	 opacity: 0.8;
+}
+ .good, .bad {
+	 font-family: arial, sans-serif;
+	 font-size: 10px;
+	 font-weight: bold;
+	 border: 1px solid black;
+	 padding: 20px;
+	 margin: 10px;
+	 border-radius: 10px;
+	 opacity: 0.8;
+}
+ .good {
+	 background-color: #a7ccac;
+}
+ .bad {
+	 background-color: red;
+}
+ div {
+	 text-align: center;
+}
+ div h1 {
+	 color: white;
+}
+ div h2, div p {
+	 color: #d3e3d8;
+}
