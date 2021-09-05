@@ -3,6 +3,9 @@
 ENGO 551 - Adv. Topics on Geospatial Technologies
 By:Sam Knight UCID:30039472
 
+# Check Out The Video Walkthrough of This Project!
+[Watch the Video!!](https://www.youtube.com/watch?v=Fi1bl6yvyL0&t=12s "Video Here!")
+
 The topic for this project is hiking, fishing, and camping on the Sunshine Coast in BC. I chose this because this is where I grew up and those three activities are what I enjoy.
 
 There are four html files for this website. index.html is the home page, basically this is just a semi-good looking intro page with self-made "buttons" that lead to the other 4 pages. The home page is also where is used an .scss file to style it. This page has all three sass requirements.
